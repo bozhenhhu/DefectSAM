@@ -22,7 +22,8 @@ cd segment-anything; pip install -e .
 ## Get Started
 Download the [model checkpoint](https://drive.google.com/file/d/1VX8O7R7UCUg8In9SShLxK1lVRi97luEf/view?usp=sharing) and place it at e.g., `weights/defect_vit_b`
 
-
+## Dataset
+[here](https://github.com/bozhenhhu/Deep-Learning-Models-for-Defect-Detection)
 
 
 ## Acknowledgements
