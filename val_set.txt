@@ -1,0 +1,14 @@
+defect/data/mat/plane/20200723_0014g.mat
+defect/data/mat/plane/001g.mat
+defect/data/mat/plane/0602(1).mat
+defect/data/mat/plane/20200812_0004g.mat
+defect/data/mat/plane/20200813_0002g.mat
+defect/data/mat/plane/003g.mat
+defect/data/mat/plane/20200812_0009g.mat
+defect/data/mat/plane/20200923_0001g.mat
+defect/data/mat/r_zone/1_20200615_4.mat
+defect/data/mat/r_zone/041g.mat
+defect/data/mat/r_zone/007g.mat
+defect/data/mat/temperature/0921t.mat
+defect/data/mat/temperature/N1.mat
+defect/data/mat/temperature/N7.mat
