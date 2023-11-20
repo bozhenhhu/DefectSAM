@@ -33,5 +33,13 @@ Download the [model checkpoint](https://drive.google.com/file/d/1VX8O7R7UCUg8In9
 - We highly thank Jun Ma, etc., for making the source code of MedSAM [paper](https://arxiv.org/abs/2304.12306), [code](https://github.com/bowang-lab/MedSAM)
 
 ## Reference
-
-upcoming
+```
+@misc{hu2023segment,
+      title={Segment Anything in Defect Detection}, 
+      author={Bozhen Hu and Bin Gao and Cheng Tan and Tongle Wu and Stan Z. Li},
+      year={2023},
+      eprint={2311.10245},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
