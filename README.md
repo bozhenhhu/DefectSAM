@@ -23,7 +23,7 @@ cd segment-anything; pip install -e .
 Download the [model checkpoint](https://drive.google.com/file/d/1VX8O7R7UCUg8In9SShLxK1lVRi97luEf/view?usp=sharing) and place it at e.g., `weights/defect_vit_b`
 
 ## Dataset
-The history of the thermal data for flat-type specimens is [here](https://github.com/bozhenhhu/Deep-Learning-Models-for-Defect-Detection). We plan to release more thermal data.
+The history of the thermal data for flat-type specimens is [here](https://github.com/bozhenhhu/Deep-Learning-Models-for-Defect-Detection). We plan to release more thermal data and artificial annotations.
 
 
 ## Acknowledgements
