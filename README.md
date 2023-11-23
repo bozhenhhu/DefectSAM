@@ -1,6 +1,8 @@
 # DefectSAM
 Segment Anything in Defect Detection, this is the official repository for DefectSAM.
 
+![img](https://github.com/bozhenhhu/DefectSAM/tree/main/imgs)
+
 
 
 ## Installation
