@@ -27,6 +27,20 @@ Download the [model checkpoint](https://drive.google.com/file/d/1VX8O7R7UCUg8In9
 ## Dataset
 The history of the thermal data for flat-type specimens is [here](https://github.com/bozhenhhu/Deep-Learning-Models-for-Defect-Detection). We released more thermal data and artificial annotations in the Releases of this repository.
 
+Contents of the released thermal defect detection database:
+
+public
+
+ ├── plane_0_public_history: the historical version of the thermal defect detection dataset that was publicly released. The historical version consists of a limited set of 11 samples. Each sample is uniquely identified by a name and is stored in mat format.
+ 
+ ├── plane: The latest iteration of the thermal defect detection dataset is housed in this section. All samples in this release are categorized as flat-type specimens, each bearing a distinct name.
+ 
+└── labels: Within this folder reside the labels corresponding to the samples found in the "plane" or "plane_0_public_history" directories. The labels are of two types: segmentation ground truth files, denoted by the .png extension, and box labels, indicated by the .json extension. These labels are associated with the sample names. For instance, for a sample named "0_20200615_1.mat" in the "plane" directory, its label can be found in either "labels/0_20200615_1.png" or "labels/0_20200615_1.json".
+
+
+The generation of JSON labels is facilitated through the utilization of the Labelme tool. In laboratory experiments where equipment remains stationary, each mat file containing a series of frames is considered to represent a single ground truth. Annotating these files involves the collaboration of three experienced human annotators, who annotate the original thermal image sequences or images processed using PCA independently. Initial processing of the mat files through PCA enhances the depth of defect information. Subsequently, Labelme is employed to label the PCA-processed images, resulting in the creation of JSON files. The segmentation ground truth files are binary-valued.
+
+
 ### License
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
