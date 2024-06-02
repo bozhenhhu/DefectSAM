@@ -25,15 +25,15 @@ cd segment-anything; pip install -e .
 Download the [model checkpoint](https://drive.google.com/file/d/1VX8O7R7UCUg8In9SShLxK1lVRi97luEf/view?usp=sharing) and place it at e.g., `weights/defect_vit_b`
 
 ## Dataset
-The history of the thermal data for flat-type specimens is [here](https://github.com/bozhenhhu/Deep-Learning-Models-for-Defect-Detection). We released more thermal data and artificial annotations in the Releases of this repository.
+We released more thermal data and artificial annotations in the Releases of this repository.
 
 Contents of the released thermal defect detection database:
 
 public
 
- ├── plane_0_public_history: the historical version of the thermal defect detection dataset that was publicly released. The historical version consists of a limited set of 11 samples. Each sample is uniquely identified by a name and is stored in mat format.
+ ├── plane_0: One version of the thermal defect detection dataset that was publicly released. Each sample is uniquely identified by a name and is stored in mat format.
  
- ├── plane: The latest iteration of the thermal defect detection dataset is housed in this section. All samples in this release are categorized as flat-type specimens, each bearing a distinct name.
+ ├── plane_1: One of the latest iterations of the thermal defect detection dataset is housed in this section. All samples in this release are categorized as flat-type specimens, each bearing a distinct name.
  
 └── labels: Within this folder reside the labels corresponding to the samples found in the "plane" or "plane_0_public_history" directories. The labels are of two types: segmentation ground truth files, denoted by the .png extension, and box labels, indicated by the .json extension. These labels are associated with the sample names. For instance, for a sample named "0_20200615_1.mat" in the "plane" directory, its label can be found in either "labels/0_20200615_1.png" or "labels/0_20200615_1.json".
 
