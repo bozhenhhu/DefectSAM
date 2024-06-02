@@ -27,6 +27,9 @@ Download the [model checkpoint](https://drive.google.com/file/d/1VX8O7R7UCUg8In9
 ## Dataset
 The history of the thermal data for flat-type specimens is [here](https://github.com/bozhenhhu/Deep-Learning-Models-for-Defect-Detection). We plan to release more thermal data and artificial annotations.
 
+### License
+Creative Commons Attribution-NonCommercial 4.0 International (CC-BY-NC)
+
 
 ## Acknowledgements
 - We highly appreciate all the challenge organizers and dataset owners for providing the public dataset to the community.
